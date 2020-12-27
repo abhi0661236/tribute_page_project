@@ -9,9 +9,10 @@ body{
 
 }
 #image{
-    position: relative;
-    size: relative;
-    width: 80%;
+    max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
 #title{
     
@@ -31,6 +32,7 @@ p {
     text-align: justify;
 }
 #img-div{
+    
     text-align: center;
     background-color: rgb(255, 255, 255);
     padding-top: 5%;
